@@ -2,43 +2,124 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HW-10</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photoblog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./src/style/style.css" />
 </head>
 
 <body>
-    <div class="holder">
-        <h1>Title</h1>
-        <ul class="list">
-            <li>
-                <a href="#">link1</a>
-                <ul>
-                    <li>
-                        <a href="#">link2</a>
-                    </li>
-                    <li>
-                        <a href="#">link3</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/">link4</a>
-            </li>
-            <li>
-                <a href="https://validator.w3.org/">link5</a>
-            </li>
-            <li>
-                <a href="#">link6</a>
-            </li>
-        </ul>
-        <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, accusamus.
-        </p>
-        <h1>Title</h1>
-        <p>Lorem ipsum dolor sit amet.</p>
-    </div>
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#" class="nav-link">LIFESTYLE</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">PHOTODIARY</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">MUSIC</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">TRAVEL</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="gallery">
+      <ul class="gallery-list">
+        <li class="galery-item">
+          <article class="post">
+            <div class="post-photo">
+              <img class="post-img" src="./src/images/festival.jpg" alt="Girl dancing" />
+            </div>
+            <span class="post-category">LIFESTYLE</span>
+            <h2 class="post-title">More than just a music festival</h2>
+            <p class="post-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea.
+            </p>
+          </article>
+        </li>
+        <li class="galery-item">
+          <article class="post">
+            <div class="post-photo">
+              <img class="post-img" src="./src/images/coffee.jpg" alt="Cup of coffee" />
+            </div>
+            <span class="post-category">LIFESTYLE</span>
+            <h2 class="post-title">Life tastes better with coffee</h2>
+            <p class="post-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea.
+            </p>
+          </article>
+        </li>
+        <li class="galery-item">
+          <article class="post">
+            <div class="post-photo">
+              <img class="post-img" src="./src/images/dream.jpg" alt="Two girls" />
+            </div>
+            <span class="post-category">PHOTODAIRY</span>
+            <h2 class="post-title">American dream</h2>
+            <p class="post-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea.
+            </p>
+          </article>
+        </li>
+        <li class="galery-item">
+          <article class="post">
+            <div class="post-photo">
+              <img class="post-img" src="./src/images/alps-mountains.jpg" alt="Man" />
+            </div>
+            <span class="post-category">PHOTODAIRY</span>
+            <h2 class="post-title">A day exploring the Alps</h2>
+            <p class="post-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea.
+            </p>
+          </article>
+        </li>
+        <li class="galery-item">
+          <article class="post">
+            <div class="post-photo">
+              <img class="post-img" src="./src/images/song.jpg" alt="Girl on the field " />
+            </div>
+            <span class="post-category">LIFESTYLE</span>
+            <h2 class="post-title">Top 10 song for running</h2>
+            <p class="post-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea.
+            </p>
+          </article>
+        </li>
+        <li class="galery-item">
+          <article class="post">
+            <div class="post-photo">
+              <img class="post-img" src="./src/images/day.jpg" alt="Winter road" />
+            </div>
+            <span class="post-category">LIFESTYLE</span>
+            <h2 class="post-title">Cold winter days</h2>
+            <p class="post-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea.
+            </p>
+          </article>
+        </li>
+      </ul>
+      <button class="gallary-button" type="button">Load more</button>
+    </section>
+  </main>
 </body>
 
 </html>
